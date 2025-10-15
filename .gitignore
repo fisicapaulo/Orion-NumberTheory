@@ -1,70 +1,61 @@
-Byte-compiled / cache
-pycache/
-*.py[cod]
-*$py.class
+# Diretórios comuns de resultados e cache
+results/
+outputs/
+__pycache__/
+.ipynb_checkpoints/
 
-Virtual environments
-.venv/
-venv/
-env/
-ENV/
-.conda/
-*.conda
+# Artefatos de Python
+*.pyc
+*.pyo
+*.pyd
 *.egg-info/
-.eggs/
-
-Build / dist
+*.egg
 build/
 dist/
+
+# Virtual envs
+.env
+.venv
+venv/
+ENV/
+env/
 pip-wheel-metadata/
-*.egg
-*.manifest
-*.spec
 
-Logs e temporários
-*.log
-*.tmp
-*.temp
-*.swp
-*.swo
-.DS_Store
-Thumbs.db
-
-Jupyter
-.ipynb_checkpoints/
+# Jupyter/Colab
+*.ipynb_checkpoints
+# Se quiser versionar notebooks, ignore apenas checkpoints; caso contrário, remova esta linha.
+# Arquivos temporários exportados pelo Colab
 *.nbconvert.ipynb
 
-Arquivos de saída pesados (opcional): comentar se quiser versionar resultados
-results/**/*.png
-results/**/*.pdf
-results/**/*.csv
-results/**/*.parquet
-results/**/*.npy
-results/**/*.npz
-Colab
-(Em geral o Colab não cria arquivos extras, mas ignore se aparecer)
-.colab/
-
-SageMath
+# Sage
 *.sage.py
-*.pyc
-*.sage-ipynb
-.sage/
+*.sobj
+*.m
+*.pyx#.c
+*.pyx#.html
+*.log
+*.rst~
+*.sage.py~
+*.sage.pyc
 
-IDEs/editores
-.vscode/
-.idea/
-*.code-workspace
+# Sistemas operacionais / editores
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+~$*
+*.bak
 
-Sistema
-.bak
-~$
-*.orig
+# Dados grandes opcionais (ajuste conforme o projeto)
+data/
+datasets/
+downloads/
 
-Dados sensíveis (mantenha seus dados em data/ e crie regras específicas)
-data/private/
-data/secret/
-.env # descomente se usar variáveis de ambiente
-Notebooks grandes exportados
-*.html
-*.pdf
+# Cache de ferramentas
+.cache/
+.mypy_cache/
+.pytest_cache/
+coverage.xml
+htmlcov/
+
