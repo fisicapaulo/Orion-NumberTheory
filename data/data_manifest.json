@@ -1,0 +1,141 @@
+{
+  "dataset": {
+    "name": "LMFDB EC/Q snapshot por primos e rank",
+    "version": "v1.0",
+    "created_at": "2025-10-26T23:21:42Z",
+    "license": "Defina conforme LMFDB/uso",
+    "source": {
+      "lmfdb_url": "https://www.lmfdb.org",
+      "accessed_at": "2025-10-26",
+      "notes": "Arquivos segmentados por primo e rank (rank0, rank1, rank3)."
+    }
+  },
+  "bundles": [
+    {
+      "group": "rank0",
+      "compression": {
+        "format": "zstd",
+        "container": "custom-json-headers",
+        "level": 19
+      },
+      "parts": [
+        {
+          "filename": "rank0_bundle.part000.zst",
+          "size_bytes": 9747520,
+          "files_included": [
+            {
+              "filename": "lmfdb_ec_curvedata_2_3_semistable.txt",
+              "size_bytes": 10220639,
+              "sha256": "1aeebbf51996fdcde32804e878ba0c9e577334ba63a32ac90d087f2aca919f06"
+            },
+            {
+              "filename": "lmfdb_ec_curvedata_5_semistable.txt",
+              "size_bytes": 10152319,
+              "sha256": "9c48026677da0ac47f98cfa817bba908f59c579dd134d05c05a6024aef7cdc37"
+            },
+            {
+              "filename": "lmfdb_ec_curvedata_7_semistable.txt",
+              "size_bytes": 7549494,
+              "sha256": "1ea9f6cbb9f532504885d7a5015808cba1565809b9d8bd83ad6bfd8e1f2dbcb5"
+            },
+            {
+              "filename": "lmfdb_ec_curvedata_11_semistable.txt",
+              "size_bytes": 4822002,
+              "sha256": "83112be7efb0a63bd09d14bdf41c97e5f62cabc9c398f3ee4d8f37f89fee5c0a"
+            },
+            {
+              "filename": "lmfdb_ec_curvedata_13_semistable.txt",
+              "size_bytes": 3981731,
+              "sha256": "043d6dc63f8391e963497c982b873fa0456ded566a051565fcdc2a67458261f9"
+            }
+          ],
+          "sha256": "9feaeee04b236473f706ea716923adcf9038a68dbc8d7cb6585b96455bc74894"
+        }
+      ]
+    },
+    {
+      "group": "rank1",
+      "compression": {
+        "format": "zstd",
+        "container": "custom-json-headers",
+        "level": 19
+      },
+      "parts": [
+        {
+          "filename": "rank1_bundle.part000.zst",
+          "size_bytes": 19773108,
+          "files_included": [
+            {
+              "filename": "lmfdb_ec_curvedata_2_3_rank_1.txt",
+              "size_bytes": 21189791,
+              "sha256": "03d1b112f725a1000a9e30d78c89fb11d7163ae6dabb1a39911201c009b995fd"
+            },
+            {
+              "filename": "lmfdb_ec_curvedata_5_rank_1.txt",
+              "size_bytes": 21159880,
+              "sha256": "e178aac5189cf63575adf6076fc941a02c4ac09dde1a151b9f7c925f0f552364"
+            },
+            {
+              "filename": "lmfdb_ec_curvedata_7_rank_1.txt",
+              "size_bytes": 15699082,
+              "sha256": "f6a6aae85d1c174d05e75863bb8c91963b4842ba1fba062f2669986c5f6549c2"
+            },
+            {
+              "filename": "lmfdb_ec_curvedata_11_rank_1.txt",
+              "size_bytes": 9890115,
+              "sha256": "d7a854c6a5057e7cfe5e1e7ba7f42bc16ee6e91654f2e6041dc987551c39e9f2"
+            },
+            {
+              "filename": "lmfdb_ec_curvedata_13_rank_1.txt",
+              "size_bytes": 8330179,
+              "sha256": "10ed727d4513599911a3fc154f30e9c9b6cb412b2d661faf6921347eb621bc8a"
+            }
+          ],
+          "sha256": "4ce4b27ab9a72014dec6ad7e8708778d8abf749479f941f3565af17193694eb5"
+        }
+      ]
+    },
+    {
+      "group": "rank3",
+      "compression": {
+        "format": "zstd",
+        "container": "custom-json-headers",
+        "level": 19
+      },
+      "parts": [
+        {
+          "filename": "rank3_bundle.part000.zst",
+          "size_bytes": 134455,
+          "files_included": [
+            {
+              "filename": "lmfdb_ec_curvedata_2_3_rank_3.txt",
+              "size_bytes": 164163,
+              "sha256": "00123a8ada295443002ead5d8c2d476e5775c284d360ccbc07da418374e73162"
+            },
+            {
+              "filename": "lmfdb_ec_curvedata_5_rank_3.txt",
+              "size_bytes": 186994,
+              "sha256": "dab61f212eafcb05520f976556c287e4853a3e3c3974ea1401de4b6c7c705c8a"
+            },
+            {
+              "filename": "lmfdb_ec_curvedata_7_rank_3.txt",
+              "size_bytes": 147793,
+              "sha256": "ba3144e1d3393e706d57eef11122e4d66c1b4b1bea2fd2b3d011193e8d7c8a71"
+            },
+            {
+              "filename": "lmfdb_ec_curvedata_11_rank_3.txt",
+              "size_bytes": 106169,
+              "sha256": "8f44884c30cb9fb9aa28a014674c83538e14513a981ccc11d1bd85a3ec3abcca"
+            },
+            {
+              "filename": "lmfdb_ec_curvedata_13_rank_3.txt",
+              "size_bytes": 97996,
+              "sha256": "34e3aba8103cfce3470db10d552fd2dcdb03096fcff7cba9411603d9ba7fd334"
+            }
+          ],
+          "sha256": "fc628ac391fafa57e17ad436e74274fefe908615c117917688f9db39bf8dee68"
+        }
+      ]
+    }
+  ]
+}
