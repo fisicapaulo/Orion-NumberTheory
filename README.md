@@ -120,3 +120,35 @@ Observações:
 - Os botões do Colab funcionam para arquivos que estejam no branch main com os caminhos informados.
 - Se os notebooks estiverem em outro branch ou com nomes diferentes, me diga que eu ajusto os links.
 ```
+Dados de Curvas Elípticas (LMFDB)
+
+Este repositório inclui uma base de dados em dados/curvas com arquivos de curvas elípticas baixados do LMFDB, organizados por primo e por rank, para uso em pesquisas sobre conjecturas relacionadas a curvas elípticas (como BSD, Szpiro, ABC e Beal). Cada arquivo contém milhares de curvas para o primo indicado.
+
+Rank 1:
+
+lmfdb_ec_curvedata_2_3_rank_1.txt
+lmfdb_ec_curvedata_5_rank_1.txt
+lmfdb_ec_curvedata_7_rank_1.txt
+lmfdb_ec_curvedata_11_rank_1.txt
+lmfdb_ec_curvedata_13_rank_1.txt
+Rank 3:
+
+lmfdb_ec_curvedata_2_3_rank_3.txt
+lmfdb_ec_curvedata_5_rank_3.txt
+lmfdb_ec_curvedata_7_rank_3.txt
+lmfdb_ec_curvedata_11_rank_3.txt
+lmfdb_ec_curvedata_13_rank_3.txt
+Rank 0 (semistable):
+
+lmfdb_ec_curvedata_2_3_semistable.txt
+lmfdb_ec_curvedata_5_semistable.txt
+lmfdb_ec_curvedata_7_semistable.txt
+lmfdb_ec_curvedata_11_semistable.txt
+lmfdb_ec_curvedata_13_semistable.txt
+Observações:
+
+Origem: LMFDB (L-functions and Modular Forms Database).
+Uso: estes arquivos são consumidos por diversos programas do projeto Orion; recomenda-se referenciar caminhos relativos como ./dados/curvas/<arquivo>.
+Formato: texto tabular (um registro por linha) conforme exportado pelo LMFDB.
+Citação: ao usar estes dados em publicações, credite o LMFDB e este repositório. Se necessário, inclua o link do LMFDB e a data de obtenção.
+
